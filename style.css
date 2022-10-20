@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f2f5;
+    height: 100vh;
+}
+
+.text {
+    margin-right: 150px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text img {
+    height: 90px;
+    margin-left: -245px;
+}
+
+/* 
+.text h1 {
+    color: #1877f2;
+    height: 35px;
+    font-size: 40px;
+    margin-bottom: 15px;
+} */
+
+.text p {
+    font-size: 26px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.form {
+    margin-right: 150px;
+    margin-top: 130px;
+    margin-left: -300px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: 45vh;
+    width: 385px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.form .email {
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    color: black;
+    width: 360px;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 13px;
+}
+.form .email:hover{
+    border: 1px solid #1877f2;
+}
+
+.form .password {
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    color: black;
+    width: 360px;
+    height: 40px;
+    font-size: 14px;
+    padding: 13px;
+}
+.form .password:hover{
+    border: 1px solid #1877f2;
+}
+
+.form .login {
+    border: none;
+    border-radius: 5px;
+    background-color: #1877f2;
+    color: white;
+    width: 360px;
+    height: 40px;
+    font-size: 25px;
+
+}
+
+.form .forgotten {
+    color: #1877f2;
+}
+
+.form span {
+
+    border-bottom: 1px solid #dddfe2;
+    width: 360px;
+    height: 1px;
+    display: flex;  
+    margin-left: 20px;
+}
+
+.form .create {
+    border: none;
+    border-radius: 5px;
+    background-color: #42b72a;
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.form h4 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+.form h4 a {
+    color: black;
+    text-decoration: none;
+    font-size: small;
+
+}
